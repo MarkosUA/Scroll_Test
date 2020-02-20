@@ -6,7 +6,6 @@ public class ExitBtnView : MonoBehaviour
 {
     public void OnExitBtnClick()
     {
-        Debug.Log("Out");
         Application.Quit();
     }
 }

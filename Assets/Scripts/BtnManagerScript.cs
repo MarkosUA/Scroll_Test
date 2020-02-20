@@ -5,14 +5,16 @@ using UnityEngine;
 public class BtnManagerScript : MonoBehaviour
 {
     [SerializeField]
-    private List<GameObject> _objPrefabs = new List<GameObject>();
+    private PrefabsData _prefabsData;
+    [SerializeField]
+    private Transform _contentObj;
 
     public void CreateObj(int objId)
     {
-        if (objId <= _objPrefabs.Count)
+        if (objId <= _prefabsData.objPrefabs.Count)
         {
-            var objClone = Instantiate(_objPrefabs[objId], transform.position, Quaternion.identity);
-            objClone.transform.SetParent(gameObject.transform);
+            var objClone = Instantiate(_prefabsData.objPrefabs[objId], _contentObj.transform.position, Quaternion.identity);
+            objClone.transform.SetParent(_contentObj.gameObject.transform);
         }
     }
 }

@@ -170,6 +170,7 @@ GameObject:
   - component: {fileID: 1439807964249570093}
   - component: {fileID: 1439807964249570095}
   - component: {fileID: 1439807964249570094}
+  - component: {fileID: 1490203993}
   m_Layer: 5
   m_Name: HeadPanel
   m_TagString: Untagged
@@ -234,6 +235,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1490203993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439807964249570092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9508bbdbd5e074785f044a6c65b09b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _prefabsData: {fileID: 11400000, guid: 8a61cd2ac025ec8488c16d371c89477d, type: 2}
+  _contentObj: {fileID: 1439807965450327420}
 --- !u!1 &1439807964793328344
 GameObject:
   m_ObjectHideFlags: 0
@@ -727,7 +742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae6a7510225f5c043b79b2736ec5a02c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _btnManager: {fileID: 7463579451473294065}
+  _btnManager: {fileID: 1490203993}
 --- !u!1 &1439807965188949646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,7 +1219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae6a7510225f5c043b79b2736ec5a02c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _btnManager: {fileID: 7463579451473294065}
+  _btnManager: {fileID: 1490203993}
 --- !u!1 &1439807965450327411
 GameObject:
   m_ObjectHideFlags: 0
@@ -1216,7 +1231,6 @@ GameObject:
   - component: {fileID: 1439807965450327420}
   - component: {fileID: 1439807965450327422}
   - component: {fileID: 1439807965450327421}
-  - component: {fileID: 7463579451473294065}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -1282,22 +1296,6 @@ MonoBehaviour:
   m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
---- !u!114 &7463579451473294065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1439807965450327411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d9508bbdbd5e074785f044a6c65b09b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _objPrefabs:
-  - {fileID: 5583279148160471657, guid: 806a4e18fbe58d84e9de70334d3456c4, type: 3}
-  - {fileID: 2908565518908719682, guid: b545d9bce1b816f40aebe72e26a226f4, type: 3}
-  - {fileID: 1565239923410401520, guid: 4e850d9797a2cde41991be4c2f91e809, type: 3}
 --- !u!1 &1439807965487166131
 GameObject:
   m_ObjectHideFlags: 0
@@ -1863,7 +1861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae6a7510225f5c043b79b2736ec5a02c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _btnManager: {fileID: 7463579451473294065}
+  _btnManager: {fileID: 1490203993}
 --- !u!1 &8439651176822596710
 GameObject:
   m_ObjectHideFlags: 0
